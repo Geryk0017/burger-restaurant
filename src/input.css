@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Blinker';
+    src: url('./assets/fonts/Blinker/Blinker-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Bowlby One';
+    src: url('./assets/fonts/Bowlby_One/BowlbyOne-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url('./assets/fonts/Oswald/static/Oswald-Regular.ttf') format('truetype');
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+ 
+}
+
+
+body {
+    @apply bg-[#EE4A1E];
+}
